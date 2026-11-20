@@ -299,13 +299,13 @@ O MCP **ai-memory** complementa a recuperação de contexto entre sessões e age
 |---|---|
 | Requisitos e decisões do produto | Registrados; pendências localizadas identificadas |
 | Arquitetura inicial | Monólito modular definido |
-| Fundação técnica | SPEC-FND r1 preparada: 8 tarefas e 29 cenários de aceite previstos |
+| Fundação técnica | SPEC-FND r2 preparada: 8 tarefas e 29 cenários de aceite ampliados; execução ainda não iniciada |
 | Demais módulos | Contratos técnicos a detalhar antes da implementação correspondente |
 | Aplicação, testes e produção | Implementação e execução ainda não iniciadas nesta baseline |
 
 ### Ambiente local
 
-A fundação prevê SDK .NET 10, Docker com Compose e ferramentas de teste compatíveis. Versões completas, arquivos de configuração e comandos reproduzíveis serão publicados junto da implementação.
+A execução da aplicação durante todo o desenvolvimento será feita em **containers Docker locais com Compose**, simulando a topologia prevista para produção: Web, Worker, PostgreSQL e proxy, com hosts de tenants e TLS local para validar autenticação. Dockerfiles e Compose mínimo acompanham a primeira aplicação executável; os testes integrados também usam esse ambiente. Ferramentas de edição podem permanecer no host. Versões completas e comandos reproduzíveis serão publicados junto da implementação.
 
 **Ainda não há um procedimento executável de instalação ou inicialização.** O repositório não contém a solução .NET e os arquivos Compose do produto nesta etapa. Esta seção será atualizada com comandos reais após a preparação do checkout e da fundação.
 
