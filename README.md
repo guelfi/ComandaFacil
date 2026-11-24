@@ -336,7 +336,7 @@ O backlog prevê notificações de negócio por SignalR, cozinha por setores, au
 
 Antes de iniciar uma alteração, definir requisito, escopo, contrato afetado e evidência de aceite. Tarefas devem registrar responsável, revisão-base e área de escrita. Mudanças de regra de negócio precisam ser incorporadas à referência correspondente antes da implementação divergente.
 
-Repositório oficial: **[guelfi/ComandaFacil.Cloud](https://github.com/guelfi/ComandaFacil.Cloud)**.
+Repositório oficial: **[guelfi/ComandaFacil](https://github.com/guelfi/ComandaFacil)**.
 
 A licença de distribuição ainda não foi definida nesta baseline.
 
